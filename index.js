@@ -22,3 +22,10 @@ function destructivelyDeleteFromEmployeeByKey(obj, key){
          delete obj[key];
          return obj;
 }
+// let mealName = "lunch";
+// const meals = {
+//   [mealName]:"Meat"
+// }
+
+// console.log(meals[mealName])
+// console.log(Object.keys(meals))
